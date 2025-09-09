@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Capstone_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Capstone Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Capstone_Suite" class="navigator-link ">
+                    <span>C:\Users\Sudheer\Downloads\capstorne_prj\capstone_creditcard_automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Capstone_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Capstone_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Capstone_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Capstone_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Capstone_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Capstone_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Capstone_Suite" class="hide-methods passed suite-Capstone_Suite"> (hide)</a> <!-- hide-methods passed suite-Capstone_Suite -->
+                      <a href="#" panel-name="suite-Capstone_Suite" class="show-methods passed suite-Capstone_Suite"> (show)</a> <!-- show-methods passed suite-Capstone_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Capstone_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials&quot;, &quot;Positive flows for Credit Card Application and user jour...)">runScenario("Successful login with valid credentials", "Positive flows for Credit Card Application and user jour...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checkout with invalid credit card number&quot;, &quot;Negative flows for Credit Card Application and user jou...)">runScenario("Checkout with invalid credit card number", "Negative flows for Credit Card Application and user jou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful registration with valid details&quot;, &quot;Positive flows for Credit Card Application and user j...)">runScenario("Successful registration with valid details", "Positive flows for Credit Card Application and user j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful credit card payment at checkout&quot;, &quot;Positive flows for Credit Card Application and user j...)">runScenario("Successful credit card payment at checkout", "Positive flows for Credit Card Application and user j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Registration with already registered email&quot;, &quot;Negative flows for Credit Card Application and user j...)">runScenario("Registration with already registered email", "Negative flows for Credit Card Application and user j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login and add desktop product to cart&quot;, &quot;Product purchase flow&quot;)">runScenario("Login and add desktop product to cart", "Product purchase flow")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="com.project.tests.runners.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid password&quot;, &quot;Negative flows for Credit Card Application and user journeys&quot;)">runScenario("Login with invalid password", "Negative flows for Credit Card Application and user journeys")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Capstone_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Capstone_Suite" class="panel Capstone_Suite">
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.project.tests.runners.TestNGRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials&quot;, &quot;Positive flows for Credit Card Application and user jour...)">
+                  </a> <!-- runScenario("Successful login with valid credentials", "Positive flows for Credit Card Application and user jour...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials","Positive flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checkout with invalid credit card number&quot;, &quot;Negative flows for Credit Card Application and user jou...)">
+                  </a> <!-- runScenario("Checkout with invalid credit card number", "Negative flows for Credit Card Application and user jou...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checkout with invalid credit card number","Negative flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful registration with valid details&quot;, &quot;Positive flows for Credit Card Application and user j...)">
+                  </a> <!-- runScenario("Successful registration with valid details", "Positive flows for Credit Card Application and user j...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful registration with valid details","Positive flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful credit card payment at checkout&quot;, &quot;Positive flows for Credit Card Application and user j...)">
+                  </a> <!-- runScenario("Successful credit card payment at checkout", "Positive flows for Credit Card Application and user j...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful credit card payment at checkout","Positive flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Registration with already registered email&quot;, &quot;Negative flows for Credit Card Application and user j...)">
+                  </a> <!-- runScenario("Registration with already registered email", "Negative flows for Credit Card Application and user j...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Registration with already registered email","Negative flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login and add desktop product to cart&quot;, &quot;Product purchase flow&quot;)">
+                  </a> <!-- runScenario("Login and add desktop product to cart", "Product purchase flow") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login and add desktop product to cart","Product purchase flow")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with invalid password&quot;, &quot;Negative flows for Credit Card Application and user journeys&quot;)">
+                  </a> <!-- runScenario("Login with invalid password", "Negative flows for Credit Card Application and user journeys") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with invalid password","Negative flows for Credit Card Application and user journeys")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+        </div> <!-- panel Capstone_Suite -->
+        <div panel-name="test-xml-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sudheer\Downloads\capstorne_prj\capstone_creditcard_automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Capstone Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.project.framework.utils.ExtentTestNGITestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Capstone Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.project.tests.runners.TestNGRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Capstone Tests --&gt;
+&lt;/suite&gt; &lt;!-- Capstone Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Capstone Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Capstone_Suite');
+function tableData_Capstone_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(0, 3, 24161);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(1, 3, 16432);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(2, 3, 10094);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(3, 3, 8569);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(4, 3, 7883);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(5, 3, 5524);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.project.tests.runners.TestNGRunner')
+data.setCell(6, 3, 5297);
+window.suiteTableData['Capstone_Suite']= { tableData: data, tableDiv: 'times-div-Capstone_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Capstone_Suite">
+              </div> <!-- times-div-Capstone_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.project.tests.runners.TestNGRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@27d6467)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Registration with already registered email", "Negative flows for Credit Card Application and user j...)</span>
+                <span class="method-start">1242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with invalid password", "Negative flows for Credit Card Application and user journeys")</span>
+                <span class="method-start">17685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checkout with invalid credit card number", "Negative flows for Credit Card Application and user jou...)</span>
+                <span class="method-start">27779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful registration with valid details", "Positive flows for Credit Card Application and user j...)</span>
+                <span class="method-start">33076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful login with valid credentials", "Positive flows for Credit Card Application and user jour...)</span>
+                <span class="method-start">40959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful credit card payment at checkout", "Positive flows for Credit Card Application and user j...)</span>
+                <span class="method-start">49531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login and add desktop product to cart", "Product purchase flow")</span>
+                <span class="method-start">55060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">79228 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Capstone Suite" parallel="false">
+
+    <listeners>
+        <!-- Extent Report Listener -->
+        <listener class-name="com.project.framework.utils.ExtentTestNGITestListener"/>
+    </listeners>
+
+    <test name="Capstone Tests">
+        <classes>
+            <!-- Correct runner class -->
+            <class name="com.project.tests.runners.TestNGRunner"/>
+        </classes>
+    </test>
+</suite>
